@@ -52,6 +52,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 128px 0;
+  flex-wrap: wrap;
 }
 
 .hero-left {
@@ -87,6 +88,7 @@ body {
   display: flex;
   width: 600px;
   height: 250px;
+  flex-shrink: 0;  
 }
 
 .hero-image {
