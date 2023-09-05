@@ -1,0 +1,52 @@
+/* 
+  dark bg #1f2937
+  white #e5e7eb
+  higher contrast #f9faf8
+  blue #3882f6
+  quote #1f2937
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  padding: 20px 200px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.logo img {
+  height: auto;
+  width: 44px;
+  padding-right: 20px;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
